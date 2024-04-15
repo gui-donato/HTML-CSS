@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="foto-video.ico" type="image/x-icon">
+    <title>Vídeo 1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .video-wrapper {
+            position: relative;
+            max-width: 800px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        iframe {
+            margin-bottom: 20px;
+        }
+
+        .playlist-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #FF5733;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            margin-bottom: 20px;
+        }
+
+        .playlist-link:hover {
+            background-color: #FF814A;
+        }
+
+        .back-link {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            color: #666;
+            text-decoration: none;
+        }
+
+        .back-link:hover {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="video-wrapper">
+        <h1>Vídeo 1</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Ejkb_YpuHWs?si=ugSe1y8-4PM1upRB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <a class="playlist-link" href="https://www.youtube.com/playlist?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n" target="_blank">Assistir Playlist Completa</a>
+        <a class="back-link" href="index.html">Voltar</a>
+    </div>
+</body>
+</html>

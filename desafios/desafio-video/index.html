@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus vídeos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .video-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .video-item {
+            background-color: #fff;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: calc(50% - 20px); /* Calcula o tamanho de 50% da largura da tela, subtraindo a lacuna entre as colunas */
+            max-width: 300px; /* Define o máximo de largura para os itens de vídeo */
+        }
+
+        .video-thumbnail {
+            width: 100%;
+            height: auto;
+        }
+
+        .video-title {
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            margin: 0;
+        }
+
+        .video-link {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .video-link:hover .video-item {
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body>
+    <h1>Vídeos para assistir</h1>
+    <div class="video-container">
+        <div class="video-item">
+            <a class="video-link" href="video1.html">
+                <img class="video-thumbnail" src="https://img.youtube.com/vi/Ejkb_YpuHWs/maxresdefault.jpg" alt="Vídeo 1">
+                <h2 class="video-title">Vídeo 1</h2>
+            </a>
+        </div>
+        <div class="video-item">
+            <a class="video-link" href="video2.html">
+                <img class="video-thumbnail" src="https://img.youtube.com/vi/vPNIAJ9B4hg/maxresdefault.jpg" alt="Vídeo 2">
+                <h2 class="video-title">Vídeo 2</h2>
+            </a>
+        </div>
+    </div>
+    <div class="video-container">
+        <div class="video-item">
+            <a class="video-link" href="video3.html">
+                <img class="video-thumbnail" src="https://img.youtube.com/vi/ofFgnDtn_1c/maxresdefault.jpg" alt="Vídeo 3">
+                <h2 class="video-title">Vídeo 3</h2>
+            </a>
+        </div>
+        <div class="video-item">
+            <a class="video-link" href="video4.html">
+                <img class="video-thumbnail" src="https://img.youtube.com/vi/zHKHMmEG9vE/maxresdefault.jpg" alt="Vídeo 4">
+                <h2 class="video-title">Vídeo 4</h2>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
