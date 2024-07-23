@@ -36,8 +36,8 @@ img{
     display: block;
     margin: auto;
 }
-img#pc {display: block;}
-img#phone {display: none;}
+img#pc {display: none;}
+img#phone {display: block;}
 img#imp {display: none;}
 img#tablet {display: none;}
 img#tv {display: none;}
